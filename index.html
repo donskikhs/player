@@ -146,9 +146,11 @@ function loadDownloads() {
   fetch("https://api.github.com/repos/donskikhs/player/releases?per_page=100").then(function (r) { if (!r.ok) throw r; return r.json(); }).then(function (list) {
     var n = 0;
     list.forEach(function (rel) { (rel.assets || []).forEach(function (a) { if (/\.dmg$/i.test(a.name)) n += a.download_count || 0; }); });
+    var changed = n !== DLN;
     DLN = n;
     try { localStorage.setItem("dmp-dl", JSON.stringify({ t: Date.now(), n: n })); } catch (e) {}
-    render();
+    // Перерисовка — только если число изменилось: иначе сбросились бы выделение текста и фокус.
+    if (changed) render();
   }).catch(function () {});
 }
 
@@ -231,7 +233,14 @@ document.addEventListener("click", function (e) {
 });
 document.addEventListener("keydown", function (e) { if (e.key === "Escape" && (S.langOpen || S.menuOpen)) { S.langOpen = false; S.menuOpen = false; render(); } });
 document.addEventListener("toggle", function (e) { if (e.target.classList && e.target.classList.contains("arch")) S.archOpen = e.target.open; }, true);
-try { var dlc = JSON.parse(localStorage.getItem("dmp-dl") || "null"); if (dlc && dlc.n) DLN = dlc.n; if (!dlc || Date.now() - dlc.t > 864e5) loadDownloads(); } catch (e) { loadDownloads(); }
+// Счётчик скачиваний: число хранится 10 минут; пока страница открыта и видна — обновляется каждые 10 минут.
+var DL_TTL = 6e5;
+function refreshDownloads() {
+  try { var dlc = JSON.parse(localStorage.getItem("dmp-dl") || "null"); if (dlc && dlc.n && !DLN) DLN = dlc.n; if (!dlc || Date.now() - dlc.t > DL_TTL) loadDownloads(); } catch (e) { loadDownloads(); }
+}
+refreshDownloads();
+setInterval(function () { if (!document.hidden) refreshDownloads(); }, DL_TTL);
+document.addEventListener("visibilitychange", function () { if (!document.hidden) refreshDownloads(); });
 render();
 </script>
 </body>
