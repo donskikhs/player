@@ -4,9 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>DONSKIKH Media Player</title>
-<meta name="description" content="DONSKIKH Media Player — лёгкий музыкальный плеер для macOS. Скачать, установка, гайд.">
+<meta name="description" content="Бесплатный музыкальный и DJ-плеер для macOS: медиатека, Automix, волна с hot cue и петлями, BPM, тональность, 30-полосный эквалайзер, смарт-плейлисты, FLAC и CUE.">
+<link rel="canonical" href="https://donskikhs.github.io/player/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DONSKIKH Media Player">
+<meta property="og:title" content="DONSKIKH Media Player — музыкальный и DJ-плеер для macOS">
+<meta property="og:description" content="Бесплатный музыкальный и DJ-плеер для macOS: медиатека, Automix, волна с hot cue и петлями, BPM, тональность, 30-полосный эквалайзер, смарт-плейлисты, FLAC и CUE.">
+<meta property="og:url" content="https://donskikhs.github.io/player/">
+<meta property="og:image" content="https://donskikhs.github.io/player/images/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Окно DONSKIKH Media Player: медиатека с BPM и тональностью, волна трека">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://donskikhs.github.io/player/images/og.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"DONSKIKH Media Player","operatingSystem":"macOS 14+","applicationCategory":"MultimediaApplication","description":"Бесплатный музыкальный и DJ-плеер для macOS: медиатека, Automix, волна с hot cue и петлями, BPM, тональность, 30-полосный эквалайзер, смарт-плейлисты, FLAC и CUE.","url":"https://donskikhs.github.io/player/","downloadUrl":"https://github.com/donskikhs/player/releases/latest/download/DONSKIKH-Media-Player.dmg","image":"https://donskikhs.github.io/player/images/og.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"RUB"}}</script>
 <meta name="theme-color" content="#0E0F12">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23FFB547'/%3E%3Cpath d='M11 8v16l13-8z' fill='%230E0F12'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -101,7 +116,28 @@ header{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;back
 </head>
 <body>
 <noscript><div><img src="https://mc.yandex.ru/watch/114249043" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<div id="app"></div>
+<div id="app"><main class="wrap" style="padding-top:48px;padding-bottom:48px">
+<h1>DONSKIKH Media Player</h1>
+<p class="muted">Бесплатный музыкальный и DJ-плеер для macOS 14+: медиатека, Automix, волна с hot cue и петлями, BPM, тональность, 30-полосный эквалайзер и смарт-плейлисты. Музыка остаётся на вашем Mac.</p>
+<p><a class="btn btn-primary" style="padding:0 22px" href="https://github.com/donskikhs/player/releases/latest/download/DONSKIKH-Media-Player.dmg">Скачать для macOS (.dmg)</a></p>
+<h2>Что умеет плеер</h2>
+<ul>
+<li>Форматы MP3, FLAC, WAV, AIFF, AAC, M4A (AAC и ALAC), CAF, W64, M4B, звук из видео MP4 и MOV, CUE-образы.</li>
+<li>Медиатека: папки, плейлисты и смарт-плейлисты с правилами, история прослушиваний, поиск дубликатов.</li>
+<li>Automix и воспроизведение без пауз: плавные переходы между треками.</li>
+<li>Волна трека, hot cue 1–8 и петли, BPM и тональность (Camelot).</li>
+<li>Обложки и теги: исполнитель, название, год, BPM и тональность — запись прямо в файл.</li>
+<li>30-полосный эквалайзер с пресетами и защитой от перегрузки.</li>
+<li>Мини-окно, медиаклавиши Mac и горячие клавиши, 10 языков интерфейса.</li>
+</ul>
+<h2>Установка</h2>
+<ol>
+<li>Скачайте файл .dmg.</li>
+<li>Перетащите значок плеера в папку «Программы».</li>
+<li>При первом запуске, если macOS не даёт открыть: Системные настройки → Конфиденциальность и безопасность → «Всё равно открыть».</li>
+</ol>
+<p><a href="https://github.com/donskikhs/player/releases">Все версии на GitHub</a> · <a href="https://t.me/donskikh_media_player">Telegram-канал</a></p>
+</main></div>
 <script>
 var I18N = {
 ru: {"name":"Русский","code":"RU","nav":["Функции","Установка","Гайд","Версии","FAQ"],"dl":"Скачать","menu":"Меню","lang":"Язык","ver":"Версия","relDate":"ДАТА РЕЛИЗА","h1a":"Просто слушай.","h1b":"Без лишнего.","sub":"DONSKIKH Media Player — музыкальный и DJ-плеер для macOS: медиатека, Automix, волна с hot cue и петлями, BPM, тональность, 30-полосный эквалайзер и смарт-плейлисты.","other":"Как установить","size":"7.5 MB","free":"Бесплатно","subs":"Сейчас играет","playlist":"Плейлист","fTitle":"Что умеет плеер","fSub":"Каждая карточка ведёт в раздел гайда с подробным описанием.","f":[["Все популярные форматы","MP3, FLAC, WAV, AIFF, AAC, M4A, ALAC и CAF; поддержку каждого формата проверяем отдельными тестами."],["Плейлисты","Перетащите папку — плеер соберёт очередь. Сохранение и повтор."],["Обложки и теги","Обложки альбомов, исполнитель, название, год, BPM и тональность — запись прямо в файл."],["Эквалайзер","30 полос, пресеты и ручная настройка звука с защитой от перегрузки."],["Медиаклавиши Mac","Управление воспроизведением с системных клавиш macOS."],["Горячие клавиши","Всё управление — с клавиатуры. Список в гайде."]],"iTitle":"Установка за минуту","steps":[["Скачайте .dmg","Нажмите «Скачать для macOS» — загрузится файл .dmg."],["Перенесите в Программы","Перетащите значок плеера в папку «Программы»."],["Первый запуск","Откройте плеер. Если macOS не даёт: Системные настройки → Конфиденциальность и безопасность → «Всё равно открыть». Это нужно один раз."],["Готово","Плеер появится в Launchpad."]],"req":"Требования","checksum":"0e4d0b434be40215c58080d4d02195d029a31103c13a5a19c032a45d529a6f03","reqv":"macOS 14+","gMenu":["Первый запуск","Открытие файлов и папок","Плейлисты","Обложки и теги","Эквалайзер и звук","Hot cue и петли","Горячие клавиши","Настройки и темы","Решение проблем"],"gTip":"Подсказка: перетаскивайте папки из Finder прямо в окно плеера. Если при первом запуске macOS блокирует плеер — «Всё равно открыть» в настройках конфиденциальности.","kTitle":"Горячие клавиши","k":[["Воспроизведение / пауза","Пробел"],["Следующий / предыдущий трек","⌘→ / ⌘←"],["Перемотка на 10 секунд","⇧⌘→ / ⇧⌘←"],["Громче / тише","⌘↑ / ⌘↓"],["Эквалайзер","⌥⌘E"],["Метки и петли","⌥⌘C"],["Hot cue 1–8","1 … 8"],["Петля: начало, конец, вкл/выкл","I, O, L"],["Изменить теги","⌘I"],["Добавить файлы / папку","⌘O / ⇧⌘O"]],"cTitle":"История обновлений","current":"Актуальная","archive":"Архив","qTitle":"Частые вопросы","q":[["Плеер бесплатный?","Да. Плеер бесплатный. Он подписан без сертификата Apple Developer ID, поэтому при первом запуске macOS один раз просит подтвердить открытие."],["Какие форматы поддерживаются?","MP3, FLAC, WAV, AIFF, AAC, M4A (AAC и ALAC), CAF, W64, M4B, звук из видео MP4 и MOV, а также CUE-образы."],["Как обновиться до новой версии?","Плеер сам проверяет обновления и показывает, что нового: нажмите «Скачать и установить», затем замените приложение в «Программах». Медиатека и настройки сохранятся."],["macOS пишет, что разработчик не подтверждён — что делать?","Откройте Системные настройки → Конфиденциальность и безопасность, внизу нажмите «Всё равно открыть» и подтвердите паролем. Если macOS пишет, что приложение повреждено, выполните в Терминале: xattr -dr com.apple.quarantine \"/Applications/DONSKIKH Media Player.app\". Это нужно один раз. Если macOS пишет «Не удаётся открыть программу» с одной кнопкой «OK» — это та же блокировка (карантин): выполните ту же команду и откройте плеер снова."]],"report":"Сообщить об ошибке","dlMac":"Скачать для macOS","gT":["Откройте плеер из Launchpad или папки «Программы». Слева — медиатека, папки и плейлисты, в центре — список треков с BPM и тональностью, внизу — плеер с волной трека. Двойной щелчок по треку запускает его. Плеер можно уменьшить до мини-окна (⌥⌘3).","Перетащите папку с музыкой из Finder в окно или выберите «Добавить папку…» (⇧⌘O). Плеер сам прочитает теги, обложки и CUE-файлы и будет следить за изменениями на диске. Раздел «Музыкальная библиотека» показывает, сколько у вас треков, альбомов и форматов.","Нажмите «+» у раздела «Плейлисты»: обычный плейлист, папка для плейлистов или смарт-плейлист с правилами (например, BPM больше 123). Треки добавляются перетаскиванием, плейлисты можно вкладывать в папки, импортировать и экспортировать в M3U.","Выберите трек и нажмите ⌘I или «Изменить теги…» в контекстном меню — можно сразу для нескольких треков. Название, исполнитель, альбом, жанр, год, BPM, тональность и обложка записываются прямо в файл MP3, FLAC и M4A.","Эквалайзер на 30 полос открывается кнопкой в плеере или ⌥⌘E. Есть пресеты, предусиление и защита от перегрузки; кривая сверху показывает итоговый звук. Двойной щелчок по ползунку возвращает его к 0 дБ, свои настройки можно сохранить как пресет.","Кнопка слева от «AUTO» (или ⌥⌘C) открывает панель меток: 8 hot cue и сохранённые петли. Щелчок правой кнопкой по волне — «Поставить метку здесь», щелчок по флажку на волне — переход к метке. Петли на 1–16 долей, ½ и ×2 включаются без пауз; метки экспортируются в Rekordbox и Serato.","В «Настройках → Клавиши» любое действие можно назначить на своё сочетание. Глобальные сочетания работают, даже когда плеер свёрнут, а медиаклавиши Mac, наушники и AirPods управляют плеером всегда. Основные сочетания — в таблице ниже.","Язык интерфейса (10 языков), тёмная или светлая тема и цветовая схема. Здесь же плеер назначается проигрывателем по умолчанию, настраиваются автосведение, медиатека и проверка обновлений.","Плеер сам проверяет обновления и показывает, что исправлено, — держите последнюю версию. Если macOS не открывает плеер — «Всё равно открыть» в настройках конфиденциальности. Трек со значком ⚠️ не найден на диске: подключите диск или добавьте папку заново. Об ошибке можно написать на GitHub или в Telegram-канал."],"dlCount":"Скачиваний","arch":"Архив обновлений","histNote":""},
@@ -167,6 +203,42 @@ var ICON = {
   info: '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFB547" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01"/><path d="M11 12h1v4h1"/></svg>'
 };
 
+// Телефон или планшет: плеер для Mac — предлагаем отправить ссылку себе.
+var IS_MOBILE = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+var MOB = {
+  ru: ["Плеер работает на Mac. Отправьте ссылку себе и скачайте его с компьютера.", "Поделиться", "Скопировать ссылку", "Ссылка скопирована"],
+  en: ["The player runs on Mac. Send yourself the link and download it on your computer.", "Share", "Copy link", "Link copied"],
+  es: ["El reproductor funciona en Mac. Envíate el enlace y descárgalo en tu ordenador.", "Compartir", "Copiar enlace", "Enlace copiado"],
+  de: ["Der Player läuft auf dem Mac. Schick dir den Link und lade ihn am Computer herunter.", "Teilen", "Link kopieren", "Link kopiert"],
+  fr: ["Le lecteur fonctionne sur Mac. Envoyez-vous le lien et téléchargez-le sur votre ordinateur.", "Partager", "Copier le lien", "Lien copié"],
+  pt: ["O player funciona no Mac. Envie o link para você e baixe no computador.", "Compartilhar", "Copiar link", "Link copiado"],
+  it: ["Il player funziona su Mac. Inviati il link e scaricalo dal computer.", "Condividi", "Copia link", "Link copiato"],
+  tr: ["Oynatıcı Mac'te çalışır. Bağlantıyı kendinize gönderin ve bilgisayardan indirin.", "Paylaş", "Bağlantıyı kopyala", "Bağlantı kopyalandı"],
+  zh: ["本播放器适用于 Mac。请把链接发给自己，在电脑上下载。", "分享", "复制链接", "链接已复制"],
+  ja: ["このプレーヤーは Mac 用です。リンクを自分に送って、パソコンでダウンロードしてください。", "共有", "リンクをコピー", "リンクをコピーしました"]
+};
+var PAGE_URL = "https://donskikhs.github.io/player/";
+function mobileNote() {
+  if (!IS_MOBILE) return "";
+  var m = MOB[S.lang] || MOB.en;
+  return '<div style="display:flex;flex-direction:column;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px">' +
+    '<span style="display:flex;gap:10px;color:#C5C8CF;font-size:15px">' + ICON.info + '<span>' + esc(m[0]) + '</span></span>' +
+    '<div style="display:flex;flex-wrap:wrap;gap:10px">' +
+    (navigator.share ? '<button type="button" class="btn btn-ghost" data-act="share" style="background:none;padding:0 18px;flex:1 1 140px;justify-content:center">' + esc(m[1]) + '</button>' : '') +
+    '<button type="button" class="btn btn-ghost" data-act="copy" style="background:none;padding:0 18px;flex:1 1 140px;justify-content:center">' + esc(S.copied ? m[3] : m[2]) + '</button></div>' +
+    (S.showUrl ? '<span style="font-family:var(--mono);font-size:14px;user-select:all;-webkit-user-select:all;word-break:break-all">' + PAGE_URL + '</span>' : '') + '</div>';
+}
+function copyLink() {
+  var done = function () { S.copied = true; render(); setTimeout(function () { S.copied = false; render(); }, 2500); };
+  var legacy = function () {
+    var t = document.createElement("textarea"); t.value = PAGE_URL; t.setAttribute("readonly", ""); t.style.position = "fixed"; t.style.opacity = "0";
+    document.body.appendChild(t); t.select(); var ok = false; try { ok = document.execCommand("copy"); } catch (e) {} document.body.removeChild(t);
+    if (ok) done(); else { S.copied = false; S.showUrl = true; render(); }
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(PAGE_URL).then(done, legacy);
+  else legacy();
+}
+
 function render() {
   var d = I18N[S.lang];
   document.documentElement.lang = S.lang;
@@ -195,7 +267,7 @@ function render() {
   '<span class="label">' + esc(d.ver) + ' ' + RELEASE.version + ' · ' + RELEASE.date + '</span>' +
   '<h1><span>' + esc(d.h1a) + '</span><span>' + esc(d.h1b) + '</span></h1>' +
   '<p class="muted" style="margin:0;font-size:clamp(16px,1.6vw,19px);max-width:520px">' + esc(d.sub) + '</p>' +
-  '<div id="download" style="display:flex;flex-wrap:wrap;gap:12px;scroll-margin-top:100px"><a href="' + DOWNLOAD_URL + '" class="btn btn-primary btn-lg" style="font-size:17px;padding:14px 26px;min-height:56px">' + ICON.dl + esc(d.dlMac) + '</a><a href="#install" class="btn btn-ghost btn-lg" style="font-size:17px;padding:14px 24px;min-height:56px">' + esc(d.other) + '</a></div>' +
+  '<div id="download" style="display:flex;flex-wrap:wrap;gap:12px;scroll-margin-top:100px"><a href="' + DOWNLOAD_URL + '" class="btn btn-primary btn-lg" style="font-size:17px;padding:14px 26px;min-height:56px">' + ICON.dl + esc(d.dlMac) + '</a><a href="#install" class="btn btn-ghost btn-lg" style="font-size:17px;padding:14px 24px;min-height:56px">' + esc(d.other) + '</a></div>' + mobileNote() +
   '<div style="display:flex;flex-wrap:wrap;gap:8px 20px;font-family:var(--mono);font-size:13px;color:var(--dim)"><span>.dmg · ' + esc(d.size) + '</span><span>' + esc(d.reqv) + '</span><span>' + esc(d.free) + '</span>' + (DLN ? '<span>' + esc(d.dlCount) + ': ' + DLN.toLocaleString(S.lang) + '</span>' : '') + '</div>' +
 '</div>' +
 '<a class="player" href="images/main.jpg" target="_blank" rel="noopener">' + shotImg("main", "DONSKIKH Media Player", true) + '</a>' +
@@ -229,6 +301,8 @@ document.addEventListener("click", function (e) {
   else if (el.dataset.act === "lang") { S.langOpen = !S.langOpen; }
   else if (el.dataset.act === "menu") { S.menuOpen = !S.menuOpen; S.langOpen = false; }
   else if (el.dataset.act === "close") { S.menuOpen = false; }
+  else if (el.dataset.act === "share") { navigator.share({ title: document.title, url: PAGE_URL }).catch(function () {}); return; }
+  else if (el.dataset.act === "copy") { copyLink(); return; }
   render();
 });
 document.addEventListener("keydown", function (e) { if (e.key === "Escape" && (S.langOpen || S.menuOpen)) { S.langOpen = false; S.menuOpen = false; render(); } });
