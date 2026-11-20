@@ -1,6 +1,6 @@
 # DONSKIKH Media Player
 
-> Бесплатный музыкальный и DJ-плеер для macOS 14+ (Apple Silicon и Intel). Free music and DJ player for macOS 14+.
+> Музыкальный и DJ-плеер для macOS 14+ (Apple Silicon и Intel). Music and DJ player for macOS 14+.
 
 - Сайт / Website: https://donskikhs.github.io/player/
 - Скачать / Download (.dmg, последняя версия): https://github.com/donskikhs/player/releases/latest/download/DONSKIKH-Media-Player.dmg
@@ -10,7 +10,7 @@
 
 ## Описание (русский)
 
-Родной плеер для macOS — для больших коллекций и для диджеев: умная медиатека, автосведение, BPM и тональность, hot cue и петли, 30-полосный эквалайзер. Без регистрации, подписки и облака.
+Удобный плеер для macOS — для больших коллекций и для диджеев: умная медиатека, автосведение, BPM и тональность, hot cue и петли, 30-полосный эквалайзер. Без регистрации, подписки и облака.
 
 ### Что умеет плеер
 
@@ -18,7 +18,7 @@
 - **Порядок без ручной возни** — «Дубликаты» находят повторы, даже если названия записаны по-разному (feat./ft., ё/е, Original Mix). Кривые теги? Названия возьмутся из имени файла.
 - **Звук, который хочется слушать** — 30-полосный эквалайзер с пресетами, ReplayGain и EBU R128 — все треки одинаково громкие. Наушники, звуковая карта, Bluetooth или HDMI — на выбор.
 - **BPM и тональность** — Плеер сам определяет темп и тональность, показывает её в системе Camelot и строит сетку ударов.
-- **Автосведение** — Две деки и шесть видов переходов — от кроссфейда до сведения по долям с подстройкой темпа. Удары совпадают с точностью около миллисекунды.
+- **Автосведение** — Шесть видов переходов — от кроссфейда до сведения по долям с подстройкой темпа. Удары совпадают с точностью около миллисекунды.
 - **Hot cue и петли** — 8 меток и петли прямо на волне — без пауз и щелчков. Экспорт в Rekordbox и Serato.
 - **Три размера окна** — Полный плеер с медиатекой, средний — с обложкой и волной, мини-полоска поверх всех окон. ⌥⌘1, ⌥⌘2, ⌥⌘3.
 - **Плейлисты и CUE** — Умные плейлисты, M3U/M3U8 (даже с путями Windows), CUE-образы. Плейлистом можно поделиться через AirDrop — с BPM, тональностью и порядком.
@@ -76,8 +76,6 @@
 
 ### Частые вопросы
 
-**Плеер бесплатный?** Да. Плеер бесплатный. Он подписан без сертификата Apple Developer ID, поэтому при первом запуске macOS один раз просит подтвердить открытие.
-
 **Какие форматы поддерживаются?** MP3, FLAC, WAV, AIFF, AAC, M4A (AAC и ALAC), CAF, W64, M4B, звук из видео MP4 и MOV, а также CUE-образы.
 
 **Как обновиться до новой версии?** Плеер сам проверяет обновления и показывает, что нового: нажмите «Скачать и установить», затем замените приложение в «Программах». Медиатека и настройки сохранятся.
@@ -87,7 +85,7 @@
 
 ## Description (English)
 
-A native macOS player for big collections and DJs: a smart library, Automix, BPM and key, hot cues and loops, a 30-band equalizer. No account, no subscription, no cloud.
+An easy-to-use macOS player for big collections and DJs: a smart library, Automix, BPM and key, hot cues and loops, a 30-band equalizer. No account, no subscription, no cloud.
 
 ### What it does
 
@@ -95,7 +93,7 @@ A native macOS player for big collections and DJs: a smart library, Automix, BPM
 - **Order without the busywork** — Duplicates finds repeats even when titles are written differently (feat./ft., Original Mix). Messy tags? Titles can come from file names.
 - **Sound worth listening to** — A 30-band equalizer with presets, ReplayGain and EBU R128 so every track plays at the same loudness. Headphones, audio interface, Bluetooth or HDMI — your choice.
 - **BPM and key** — The player detects tempo and key, shows the key in Camelot notation and builds a beat grid.
-- **Automix** — Two decks and six transition types, from crossfades to beat-matched mixes with tempo sync. Beats line up to about a millisecond.
+- **Automix** — Six transition types, from crossfades to beat-matched mixes with tempo sync. Beats line up to about a millisecond.
 - **Hot cues and loops** — 8 cues and loops right on the waveform, with no gaps or clicks. Export to Rekordbox and Serato.
 - **Three window sizes** — The full player with your library, a medium view with artwork and waveform, and a mini bar above all windows. ⌥⌘1, ⌥⌘2, ⌥⌘3.
 - **Playlists and CUE** — Smart playlists, M3U/M3U8 (even with Windows paths), CUE images. Share a playlist over AirDrop with BPM, key and order intact.
@@ -152,8 +150,6 @@ Requirements: macOS 14+
 - Add files / folder: `⌘O / ⇧⌘O`
 
 ### Frequently asked questions
-
-**Is the player free?** Yes, the player is free. It is signed without an Apple Developer ID, so macOS asks you to confirm opening it once.
 
 **Which formats are supported?** MP3, FLAC, WAV, AIFF, AAC, M4A (AAC and ALAC), CAF, W64, M4B, audio from MP4 and MOV video, and CUE images.
 
