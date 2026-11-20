@@ -1,0 +1,151 @@
+# DONSKIKH Media Player
+
+> Бесплатный музыкальный и DJ-плеер для macOS 14+ (Apple Silicon и Intel). Free music and DJ player for macOS 14+.
+
+- Сайт / Website: https://donskikhs.github.io/player/
+- Скачать / Download (.dmg, последняя версия): https://github.com/donskikhs/player/releases/latest/download/DONSKIKH-Media-Player.dmg
+- Выпуски и история версий / Releases: https://github.com/donskikhs/player/releases
+- Ошибки / Issues: https://github.com/donskikhs/player/issues
+- Telegram: https://t.me/donskikh_media_player
+
+## Описание (русский)
+
+DONSKIKH Media Player — музыкальный и DJ-плеер для macOS: медиатека, Automix, волна с hot cue и петлями, BPM, тональность, 30-полосный эквалайзер и смарт-плейлисты.
+
+### Что умеет плеер
+
+- **Все популярные форматы** — MP3, FLAC, WAV, AIFF, AAC, M4A, ALAC и CAF; поддержку каждого формата проверяем отдельными тестами.
+- **Плейлисты** — Перетащите папку — плеер соберёт очередь. Сохранение и повтор.
+- **Обложки и теги** — Обложки альбомов, исполнитель, название, год, BPM и тональность — запись прямо в файл.
+- **Эквалайзер** — 30 полос, пресеты и ручная настройка звука с защитой от перегрузки.
+- **Медиаклавиши Mac** — Управление воспроизведением с системных клавиш macOS.
+- **Горячие клавиши** — Всё управление — с клавиатуры. Список в гайде.
+- Automix и воспроизведение без пауз (gapless): плавные переходы между треками с учётом BPM.
+- Волна трека, 8 hot cue и петли на 1–16 долей; экспорт меток в Rekordbox и Serato.
+- Определение BPM и тональности (Camelot), смарт-плейлисты с правилами, импорт и экспорт M3U.
+- CUE-образы, звук из видео MP4 и MOV, мини-окно, 10 языков интерфейса.
+- Музыка и медиатека остаются на вашем Mac: без облака, учётной записи и рекламы.
+
+### Установка за минуту
+
+1. **Скачайте .dmg** — Нажмите «Скачать для macOS» — загрузится файл .dmg.
+2. **Перенесите в Программы** — Перетащите значок плеера в папку «Программы».
+3. **Первый запуск** — Откройте плеер. Если macOS не даёт: Системные настройки → Конфиденциальность и безопасность → «Всё равно открыть». Это нужно один раз.
+4. **Готово** — Плеер появится в Launchpad.
+
+Требования: macOS 14+
+
+### Гайд
+
+**Первый запуск.** Откройте плеер из Launchpad или папки «Программы». Слева — медиатека, папки и плейлисты, в центре — список треков с BPM и тональностью, внизу — плеер с волной трека. Двойной щелчок по треку запускает его. Плеер можно уменьшить до мини-окна (⌥⌘3).
+
+**Открытие файлов и папок.** Перетащите папку с музыкой из Finder в окно или выберите «Добавить папку…» (⇧⌘O). Плеер сам прочитает теги, обложки и CUE-файлы и будет следить за изменениями на диске. Раздел «Музыкальная библиотека» показывает, сколько у вас треков, альбомов и форматов.
+
+**Плейлисты.** Нажмите «+» у раздела «Плейлисты»: обычный плейлист, папка для плейлистов или смарт-плейлист с правилами (например, BPM больше 123). Треки добавляются перетаскиванием, плейлисты можно вкладывать в папки, импортировать и экспортировать в M3U.
+
+**Обложки и теги.** Выберите трек и нажмите ⌘I или «Изменить теги…» в контекстном меню — можно сразу для нескольких треков. Название, исполнитель, альбом, жанр, год, BPM, тональность и обложка записываются прямо в файл MP3, FLAC и M4A.
+
+**Эквалайзер и звук.** Эквалайзер на 30 полос открывается кнопкой в плеере или ⌥⌘E. Есть пресеты, предусиление и защита от перегрузки; кривая сверху показывает итоговый звук. Двойной щелчок по ползунку возвращает его к 0 дБ, свои настройки можно сохранить как пресет.
+
+**Hot cue и петли.** Кнопка слева от «AUTO» (или ⌥⌘C) открывает панель меток: 8 hot cue и сохранённые петли. Щелчок правой кнопкой по волне — «Поставить метку здесь», щелчок по флажку на волне — переход к метке. Петли на 1–16 долей, ½ и ×2 включаются без пауз; метки экспортируются в Rekordbox и Serato.
+
+**Горячие клавиши.** В «Настройках → Клавиши» любое действие можно назначить на своё сочетание. Глобальные сочетания работают, даже когда плеер свёрнут, а медиаклавиши Mac, наушники и AirPods управляют плеером всегда. Основные сочетания — в таблице ниже.
+
+**Настройки и темы.** Язык интерфейса (10 языков), тёмная или светлая тема и цветовая схема. Здесь же плеер назначается проигрывателем по умолчанию, настраиваются автосведение, медиатека и проверка обновлений.
+
+**Решение проблем.** Плеер сам проверяет обновления и показывает, что исправлено, — держите последнюю версию. Если macOS не открывает плеер — «Всё равно открыть» в настройках конфиденциальности. Трек со значком ⚠️ не найден на диске: подключите диск или добавьте папку заново. Об ошибке можно написать на GitHub или в Telegram-канал.
+
+### Горячие клавиши
+
+- Воспроизведение / пауза: `Пробел`
+- Следующий / предыдущий трек: `⌘→ / ⌘←`
+- Перемотка на 10 секунд: `⇧⌘→ / ⇧⌘←`
+- Громче / тише: `⌘↑ / ⌘↓`
+- Эквалайзер: `⌥⌘E`
+- Метки и петли: `⌥⌘C`
+- Hot cue 1–8: `1 … 8`
+- Петля: начало, конец, вкл/выкл: `I, O, L`
+- Изменить теги: `⌘I`
+- Добавить файлы / папку: `⌘O / ⇧⌘O`
+
+### Частые вопросы
+
+**Плеер бесплатный?** Да. Плеер бесплатный. Он подписан без сертификата Apple Developer ID, поэтому при первом запуске macOS один раз просит подтвердить открытие.
+
+**Какие форматы поддерживаются?** MP3, FLAC, WAV, AIFF, AAC, M4A (AAC и ALAC), CAF, W64, M4B, звук из видео MP4 и MOV, а также CUE-образы.
+
+**Как обновиться до новой версии?** Плеер сам проверяет обновления и показывает, что нового: нажмите «Скачать и установить», затем замените приложение в «Программах». Медиатека и настройки сохранятся.
+
+**macOS пишет, что разработчик не подтверждён — что делать?** Откройте Системные настройки → Конфиденциальность и безопасность, внизу нажмите «Всё равно открыть» и подтвердите паролем. Если macOS пишет, что приложение повреждено, выполните в Терминале: xattr -dr com.apple.quarantine "/Applications/DONSKIKH Media Player.app". Это нужно один раз. Если macOS пишет «Не удаётся открыть программу» с одной кнопкой «OK» — это та же блокировка (карантин): выполните ту же команду и откройте плеер снова.
+
+
+## Description (English)
+
+DONSKIKH Media Player is a music and DJ player for macOS: library, Automix, waveform with hot cues and loops, BPM, key, a 30-band equalizer and smart playlists.
+
+### What the player can do
+
+- **All the common formats** — MP3, FLAC, WAV, AIFF, AAC, M4A, ALAC and CAF — each format is covered by its own tests.
+- **Playlists** — Drop in a folder and the player builds a queue. Save and repeat.
+- **Artwork and tags** — Album artwork, artist, title, year, BPM and key — written straight into the file.
+- **Equalizer** — 30 bands, presets and manual tuning with clipping protection.
+- **Mac media keys** — Control playback with the macOS media keys.
+- **Hotkeys** — Full keyboard control. The list is in the guide.
+- Automix and gapless playback: smooth BPM-aware transitions between tracks.
+- Track waveform, 8 hot cues and 1–16 beat loops; cue export to Rekordbox and Serato.
+- BPM and key detection (Camelot), rule-based smart playlists, M3U import and export.
+- CUE images, audio from MP4 and MOV video, mini player, 10 interface languages.
+- Your music and library stay on your Mac: no cloud, no account, no ads.
+
+### Install in a minute
+
+1. **Download the .dmg** — Click “Download for macOS” to get the .dmg file.
+2. **Move to Applications** — Drag the player icon into the Applications folder.
+3. **First launch** — Open the player. If macOS blocks it: System Settings → Privacy & Security → “Open Anyway”. You only need to do this once.
+4. **Done** — The player appears in Launchpad.
+
+Requirements: macOS 14+
+
+### Guide
+
+**First launch.** Open the player from Launchpad or the Applications folder. On the left are the library, folders and playlists; in the middle, the track list with BPM and key; at the bottom, the player with the track waveform. Double-click a track to play it. The player can shrink to a mini window (⌥⌘3).
+
+**Opening files and folders.** Drag a music folder from Finder into the window or choose “Add Folder…” (⇧⌘O). The player reads tags, artwork and CUE sheets by itself and watches the folder for changes. The “Music Library” section shows how many tracks, albums and formats you have.
+
+**Playlists.** Click “+” next to “Playlists”: a regular playlist, a folder for playlists or a smart playlist with rules (for example, BPM above 123). Add tracks by dragging; playlists can be nested in folders, imported and exported as M3U.
+
+**Artwork and tags.** Select a track and press ⌘I or choose “Edit Tags…” in the context menu — several tracks at once work too. Title, artist, album, genre, year, BPM, key and artwork are written straight into MP3, FLAC and M4A files.
+
+**Equalizer and sound.** The 30-band equalizer opens from the player button or ⌥⌘E. It has presets, preamp and clipping protection; the curve on top shows the resulting sound. Double-click a slider to reset it to 0 dB, and save your own settings as a preset.
+
+**Hot cues and loops.** The button left of “AUTO” (or ⌥⌘C) opens the cue panel: 8 hot cues and saved loops. Right-click the waveform and choose “Set cue here”; click a flag on the waveform to jump to it. Loops of 1–16 beats, ½ and ×2 switch without gaps; cues export to Rekordbox and Serato.
+
+**Hotkeys.** In Settings → Keys you can assign any action to your own shortcut. Global shortcuts work even when the player is hidden, and Mac media keys, headphones and AirPods always control it. The main shortcuts are listed below.
+
+**Settings and themes.** Interface language (10 languages), dark or light theme and color scheme. This is also where you make it the default player and set up Automix, the library and update checks.
+
+**Troubleshooting.** The player checks for updates and shows what’s fixed — keep it on the latest version. If macOS won’t open it, click “Open Anyway” in Privacy & Security. A track marked ⚠️ wasn’t found on disk: connect the drive or add the folder again. Report problems on GitHub or in the Telegram channel.
+
+### Keyboard shortcuts
+
+- Play / pause: `Space`
+- Next / previous track: `⌘→ / ⌘←`
+- Skip 10 seconds: `⇧⌘→ / ⇧⌘←`
+- Volume up / down: `⌘↑ / ⌘↓`
+- Equalizer: `⌥⌘E`
+- Cues and loops: `⌥⌘C`
+- Hot cue 1–8: `1 … 8`
+- Loop: in, out, on/off: `I, O, L`
+- Edit tags: `⌘I`
+- Add files / folder: `⌘O / ⇧⌘O`
+
+### Frequently asked questions
+
+**Is the player free?** Yes, the player is free. It is signed without an Apple Developer ID, so macOS asks you to confirm opening it once.
+
+**Which formats are supported?** MP3, FLAC, WAV, AIFF, AAC, M4A (AAC and ALAC), CAF, W64, M4B, audio from MP4 and MOV video, and CUE images.
+
+**How do I update to a new version?** The player checks for updates itself and shows what’s new: click “Download and Install”, then replace the app in Applications. Your library and settings are kept.
+
+**macOS says the developer can’t be verified — what do I do?** Open System Settings → Privacy & Security, scroll down, click “Open Anyway” and confirm with your password. If macOS says the app is damaged, run in Terminal: xattr -dr com.apple.quarantine "/Applications/DONSKIKH Media Player.app". You only need to do this once. If macOS says “The application can’t be opened” with a single OK button, it’s the same quarantine block: run the same command and open the player again.
+
