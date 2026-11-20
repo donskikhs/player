@@ -10,21 +10,27 @@
 
 ## Описание (русский)
 
-DONSKIKH Media Player — музыкальный и DJ-плеер для macOS: медиатека, Automix, волна с hot cue и петлями, BPM, тональность, 30-полосный эквалайзер и смарт-плейлисты.
+Родной плеер для macOS — для больших коллекций и для диджеев: умная медиатека, автосведение, BPM и тональность, hot cue и петли, 30-полосный эквалайзер. Без регистрации, подписки и облака.
 
 ### Что умеет плеер
 
-- **Все популярные форматы** — MP3, FLAC, WAV, AIFF, AAC, M4A, ALAC и CAF; поддержку каждого формата проверяем отдельными тестами.
-- **Плейлисты** — Перетащите папку — плеер соберёт очередь. Сохранение и повтор.
-- **Обложки и теги** — Обложки альбомов, исполнитель, название, год, BPM и тональность — запись прямо в файл.
-- **Эквалайзер** — 30 полос, пресеты и ручная настройка звука с защитой от перегрузки.
-- **Медиаклавиши Mac** — Управление воспроизведением с системных клавиш macOS.
-- **Горячие клавиши** — Всё управление — с клавиатуры. Список в гайде.
-- Automix и воспроизведение без пауз (gapless): плавные переходы между треками с учётом BPM.
-- Волна трека, 8 hot cue и петли на 1–16 долей; экспорт меток в Rekordbox и Serato.
-- Определение BPM и тональности (Camelot), смарт-плейлисты с правилами, импорт и экспорт M3U.
-- CUE-образы, звук из видео MP4 и MOV, мини-окно, 10 языков интерфейса.
-- Музыка и медиатека остаются на вашем Mac: без облака, учётной записи и рекламы.
+- **Медиатека для больших коллекций** — Плеер сам следит за папками: находит перемещённые и переименованные файлы, сохраняет избранное и историю. Отключённый диск не ломает медиатеку.
+- **Порядок без ручной возни** — «Дубликаты» находят повторы, даже если названия записаны по-разному (feat./ft., ё/е, Original Mix). Кривые теги? Названия возьмутся из имени файла.
+- **Звук, который хочется слушать** — 30-полосный эквалайзер с пресетами, ReplayGain и EBU R128 — все треки одинаково громкие. Наушники, звуковая карта, Bluetooth или HDMI — на выбор.
+- **BPM и тональность** — Плеер сам определяет темп и тональность, показывает её в системе Camelot и строит сетку ударов.
+- **Автосведение** — Две деки и шесть видов переходов — от кроссфейда до сведения по долям с подстройкой темпа. Удары совпадают с точностью около миллисекунды.
+- **Hot cue и петли** — 8 меток и петли прямо на волне — без пауз и щелчков. Экспорт в Rekordbox и Serato.
+- **Три размера окна** — Полный плеер с медиатекой, средний — с обложкой и волной, мини-полоска поверх всех окон. ⌥⌘1, ⌥⌘2, ⌥⌘3.
+- **Плейлисты и CUE** — Умные плейлисты, M3U/M3U8 (даже с путями Windows), CUE-образы. Плейлистом можно поделиться через AirDrop — с BPM, тональностью и порядком.
+- **Всё остаётся у вас** — Без регистрации, подписки и облака. Резервные копии медиатеки, перенос на другой Mac, обновления в один клик.
+- Форматы: MP3, FLAC, WAV, AIFF, AAC, M4A (AAC и ALAC), CAF, W64, M4B, звук из видео MP4 и MOV.
+- Сторонних библиотек нет: плеер лёгкий и быстрый, работает на Apple Silicon и Intel.
+
+### Кому подойдёт
+
+- **Меломанам** — Большая коллекция в FLAC или MP3: порядок, чистый звук, одинаковая громкость и CUE-образы.
+- **Диджеям** — BPM, тональность, автосведение, метки и петли — готовьте сеты и слушайте музыку непрерывным миксом.
+- **Тем, кто ценит своё** — Никаких подписок и облаков: музыка и данные остаются на вашем Mac.
 
 ### Установка за минуту
 
@@ -81,21 +87,27 @@ DONSKIKH Media Player — музыкальный и DJ-плеер для macOS: 
 
 ## Description (English)
 
-DONSKIKH Media Player is a music and DJ player for macOS: library, Automix, waveform with hot cues and loops, BPM, key, a 30-band equalizer and smart playlists.
+A native macOS player for big collections and DJs: a smart library, Automix, BPM and key, hot cues and loops, a 30-band equalizer. No account, no subscription, no cloud.
 
-### What the player can do
+### What it does
 
-- **All the common formats** — MP3, FLAC, WAV, AIFF, AAC, M4A, ALAC and CAF — each format is covered by its own tests.
-- **Playlists** — Drop in a folder and the player builds a queue. Save and repeat.
-- **Artwork and tags** — Album artwork, artist, title, year, BPM and key — written straight into the file.
-- **Equalizer** — 30 bands, presets and manual tuning with clipping protection.
-- **Mac media keys** — Control playback with the macOS media keys.
-- **Hotkeys** — Full keyboard control. The list is in the guide.
-- Automix and gapless playback: smooth BPM-aware transitions between tracks.
-- Track waveform, 8 hot cues and 1–16 beat loops; cue export to Rekordbox and Serato.
-- BPM and key detection (Camelot), rule-based smart playlists, M3U import and export.
-- CUE images, audio from MP4 and MOV video, mini player, 10 interface languages.
-- Your music and library stay on your Mac: no cloud, no account, no ads.
+- **A library for big collections** — The player watches your folders: it finds moved and renamed files and keeps favorites and history. A disconnected drive won't break the library.
+- **Order without the busywork** — Duplicates finds repeats even when titles are written differently (feat./ft., Original Mix). Messy tags? Titles can come from file names.
+- **Sound worth listening to** — A 30-band equalizer with presets, ReplayGain and EBU R128 so every track plays at the same loudness. Headphones, audio interface, Bluetooth or HDMI — your choice.
+- **BPM and key** — The player detects tempo and key, shows the key in Camelot notation and builds a beat grid.
+- **Automix** — Two decks and six transition types, from crossfades to beat-matched mixes with tempo sync. Beats line up to about a millisecond.
+- **Hot cues and loops** — 8 cues and loops right on the waveform, with no gaps or clicks. Export to Rekordbox and Serato.
+- **Three window sizes** — The full player with your library, a medium view with artwork and waveform, and a mini bar above all windows. ⌥⌘1, ⌥⌘2, ⌥⌘3.
+- **Playlists and CUE** — Smart playlists, M3U/M3U8 (even with Windows paths), CUE images. Share a playlist over AirDrop with BPM, key and order intact.
+- **Everything stays yours** — No account, subscription or cloud. Library backups, moving to another Mac, one-click updates.
+- Formats: MP3, FLAC, WAV, AIFF, AAC, M4A (AAC and ALAC), CAF, W64, M4B, audio from MP4 and MOV video.
+- No third-party libraries: the player is light and fast and runs on Apple Silicon and Intel.
+
+### Who it's for
+
+- **Music lovers** — A big FLAC or MP3 collection: order, clean sound, consistent loudness and CUE images.
+- **DJs** — BPM, key, Automix, cues and loops — prepare sets and listen to music as one continuous mix.
+- **Privacy-minded people** — No subscriptions or cloud: your music and data stay on your Mac.
 
 ### Install in a minute
 
