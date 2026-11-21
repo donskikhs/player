@@ -195,7 +195,7 @@ header{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;back
 <dt>macOS пишет, что разработчик не подтверждён — что делать?</dt>
 <dd>Откройте Системные настройки → Конфиденциальность и безопасность, внизу нажмите «Всё равно открыть» и подтвердите паролем. Если macOS пишет, что приложение повреждено, выполните в Терминале: xattr -dr com.apple.quarantine &quot;/Applications/DONSKIKH Media Player.app&quot;. Это нужно один раз. Если macOS пишет «Не удаётся открыть программу» с одной кнопкой «OK» — это та же блокировка (карантин): выполните ту же команду и откройте плеер снова.</dd>
 </dl>
-<p><a href="https://github.com/donskikhs/player/releases">Все версии на GitHub</a> · <a href="https://t.me/donskikh_media_player">Telegram-канал</a> · <a href="https://github.com/donskikhs/player/issues">Сообщить об ошибке</a></p>
+<p><a href="https://github.com/donskikhs/player/releases">Все версии на GitHub</a> · <a href="https://t.me/donskikh_music">Telegram-канал</a></p>
 <section lang="en">
 <h1>DONSKIKH Media Player — music and DJ player for macOS</h1>
 <p>An easy-to-use macOS player for big collections and DJs: a smart library, Automix, BPM and key, hot cues and loops, a 30-band equalizer. No account, no subscription, no cloud.</p>
@@ -270,7 +270,7 @@ header{border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;back
 <dt>macOS says the developer can’t be verified — what do I do?</dt>
 <dd>Open System Settings → Privacy &amp; Security, scroll down, click “Open Anyway” and confirm with your password. If macOS says the app is damaged, run in Terminal: xattr -dr com.apple.quarantine &quot;/Applications/DONSKIKH Media Player.app&quot;. You only need to do this once. If macOS says “The application can’t be opened” with a single OK button, it’s the same quarantine block: run the same command and open the player again.</dd>
 </dl>
-<p><a href="https://github.com/donskikhs/player/releases">All releases on GitHub</a> · <a href="https://t.me/donskikh_media_player">Telegram channel</a> · <a href="https://github.com/donskikhs/player/issues">Report a bug</a></p>
+<p><a href="https://github.com/donskikhs/player/releases">All releases on GitHub</a> · <a href="https://t.me/donskikh_music">Telegram channel</a></p>
 </section>
 </main>
 <!--/seo--></div>
@@ -293,7 +293,7 @@ var RELEASE = {version:"1.0.92", date:"22.11.2026"};
 var DOWNLOAD_URL = "https://github.com/donskikhs/player/releases/latest/download/DONSKIKH-Media-Player.dmg";
 var GITHUB_URL = "https://github.com/donskikhs/player";
 var ISSUES_URL = GITHUB_URL + "/issues";
-var TELEGRAM_URL = "https://t.me/donskikh_media_player";
+var TELEGRAM_URL = "https://t.me/donskikh_music";
 
 var SHOTS = {"update":[1200,967],"settings":[1143,1200],"main":[1600,875],"playlists":[1600,875],"library":[1600,875],"cues":[1600,875],"medium":[787,1200],"tags":[1050,1200],"mini":[1200,285],"equalizer":[1200,505],"hotkeys":[947,1200]};
 var GUIDE_SHOTS = [["main","mini"],["library"],["playlists"],["tags"],["equalizer"],["cues"],["hotkeys"],["settings"],["update"]];
@@ -435,7 +435,7 @@ function render() {
 '<section id="faq" style="background:var(--bg2);border-top:1px solid var(--line);scroll-margin-top:70px"><div class="wrap sec" style="display:flex;flex-wrap:wrap;gap:32px 48px"><div style="flex:1 1 300px;display:flex;flex-direction:column;gap:12px"><span class="label">05 — ' + esc(d.nav[4]) + '</span><h2>' + esc(d.qTitle) + '</h2></div><div style="flex:999 1 560px;min-width:0">' + faq + '</div></div></section>' +
 '</main>' +
 
-'<footer style="border-top:1px solid var(--line)"><div class="wrap" style="padding-top:32px;padding-bottom:32px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;font-size:14px;color:var(--dim)"><span>© 2026 DONSKIKH Media Player</span><span style="display:flex;flex-wrap:wrap;gap:4px 24px"><a href="' + GITHUB_URL + '" class="tlink" style="color:var(--muted);text-decoration:none">GitHub</a><a href="' + TELEGRAM_URL + '" class="tlink" style="color:var(--muted);text-decoration:none">Telegram</a><a href="' + ISSUES_URL + '" class="tlink" style="color:var(--muted);text-decoration:none">' + esc(d.report) + '</a></span></div></footer>';
+'<footer style="border-top:1px solid var(--line)"><div class="wrap" style="padding-top:32px;padding-bottom:32px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;font-size:14px;color:var(--dim)"><span>© 2026 DONSKIKH Media Player</span><span style="display:flex;flex-wrap:wrap;gap:4px 24px"><a href="' + GITHUB_URL + '" class="tlink" style="color:var(--muted);text-decoration:none">GitHub</a><a href="' + TELEGRAM_URL + '" class="tlink" style="color:var(--muted);text-decoration:none">Telegram</a></span></div></footer>';
   var slot = document.getElementById("video-slot"); if (slot) slot.appendChild(PROMO);
 }
 

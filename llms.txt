@@ -5,8 +5,7 @@
 - Сайт / Website: https://donskikhs.github.io/player/
 - Скачать / Download (.dmg, последняя версия): https://github.com/donskikhs/player/releases/latest/download/DONSKIKH-Media-Player.dmg
 - Выпуски и история версий / Releases: https://github.com/donskikhs/player/releases
-- Ошибки / Issues: https://github.com/donskikhs/player/issues
-- Telegram: https://t.me/donskikh_media_player
+- Telegram: https://t.me/donskikh_music
 
 ## Описание (русский)
 
