@@ -6,6 +6,7 @@
 - Скачать / Download (.dmg, последняя версия): https://github.com/donskikhs/player/releases/latest/download/DONSKIKH-Media-Player.dmg
 - Выпуски и история версий / Releases: https://github.com/donskikhs/player/releases
 - Telegram: https://t.me/donskikh_music
+- Поддержать автора / Support the author: https://www.donationalerts.com/r/donskikhserg
 
 ## Описание (русский)
 
