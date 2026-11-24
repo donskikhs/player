@@ -43,23 +43,33 @@
 
 ### Гайд
 
-**Первый запуск.** Откройте плеер из Launchpad или папки «Программы». Слева — медиатека, папки и плейлисты, в центре — список треков с BPM и тональностью, внизу — плеер с волной трека. Двойной щелчок по треку запускает его. Плеер можно уменьшить до мини-окна (⌥⌘3).
+**Первый запуск.** Откройте плеер из Launchpad или папки «Программы». В приветственном окне нажмите «Добавить папку» — плеер прочитает теги и обложки и сам посчитает BPM и тональность. Слева — медиатека, папки и плейлисты, в центре — треки, внизу — плеер с волной трека. Двойной щелчок по треку запускает его.
 
-**Открытие файлов и папок.** Перетащите папку с музыкой из Finder в окно или выберите «Добавить папку…» (⇧⌘O). Плеер сам прочитает теги, обложки и CUE-файлы и будет следить за изменениями на диске. Раздел «Музыкальная библиотека» показывает, сколько у вас треков, альбомов и форматов.
+**Медиатека и папки.** Добавляйте папки целиком (⇧⌘O) — плеер сам следит за ними: новые треки появятся, перемещённые и переименованные найдутся, а избранное, история и метки сохранятся. Колонки включаются в меню заголовка таблицы: рейтинг звёздами, прослушивания, комментарий, расположение файла. «Дубликаты» находят повторы, даже если названия записаны по-разному. Теги кривые? Включите в настройках «Названия и исполнители из имени файла».
 
-**Плейлисты.** Нажмите «+» у раздела «Плейлисты»: обычный плейлист, папка для плейлистов или смарт-плейлист с правилами (например, BPM больше 123). Треки добавляются перетаскиванием, плейлисты можно вкладывать в папки, импортировать и экспортировать в M3U.
+**Плейлисты и очередь.** Нажмите «+» у раздела «Плейлисты»: обычный плейлист, папка или умный плейлист с правилами — по BPM, тональности, жанру, комментарию, лейблу и другим полям, как умные креты Serato. Треки перетаскиваются из таблицы и из Finder, порядок меняется мышью. «Играть следующим» и «В конец очереди» — в меню трека, очередь сохраняется как плейлист (⇧⌘S). Импорт и экспорт M3U.
 
-**Обложки и теги.** Выберите трек и нажмите ⌘I или «Изменить теги…» в контекстном меню — можно сразу для нескольких треков. Название, исполнитель, альбом, жанр, год, BPM, тональность и обложка записываются прямо в файл MP3, FLAC и M4A.
+**Обложки и теги.** Выберите трек и нажмите ⌘I или «Изменить теги…» в меню — можно сразу для нескольких треков. Название, исполнитель, альбом, жанр, год, BPM, тональность и обложка записываются прямо в файл MP3, FLAC и M4A. Запись безопасная: если что-то пошло не так, исходный файл остаётся целым.
 
-**Эквалайзер и звук.** Эквалайзер на 30 полос открывается кнопкой в плеере или ⌥⌘E. Есть пресеты, предусиление и защита от перегрузки; кривая сверху показывает итоговый звук. Двойной щелчок по ползунку возвращает его к 0 дБ, свои настройки можно сохранить как пресет.
+**Эквалайзер и звук.** Эквалайзер на 30 полос (⌥⌘E) с пресетами, предусилением и защитой от перегрузки; двойной щелчок по ползунку возвращает 0 дБ. ReplayGain выравнивает громкость, а если тегов нет — считает её по EBU R128. В меню у громкости выбирается устройство вывода — наушники, звуковая карта, Bluetooth, HDMI — и пара каналов многоканальной карты. Индикатор показывает уровень на выходе.
 
-**Hot cue и петли.** Кнопка слева от «AUTO» (или ⌥⌘C) открывает панель меток: 8 hot cue и сохранённые петли. Щелчок правой кнопкой по волне — «Поставить метку здесь», щелчок по флажку на волне — переход к метке. Петли на 1–16 долей, ½ и ×2 включаются без пауз; метки экспортируются в Rekordbox и Serato.
+**Автосведение.** Кнопка AUTO (⌥⌘A) включает автосведение: шесть видов переходов — кроссфейд, сведение по долям с подстройкой темпа, смена баса, фильтр, эхо-выход и резкая смена. Плеер может доверять темпу и сетке из тегов Serato и Mixed In Key. Начало и конец трека задаются ручками прямо на волне («Границы воспроизведения»), тишину в начале и в конце можно пропускать.
+
+**Hot cue и петли.** Кнопка слева от AUTO (⌥⌘C) открывает панель меток: 8 hot cue (клавиши 1–8) и сохранённые петли. Метка ставится правой кнопкой по волне, цвета — как в Serato DJ Pro. Петли на 1–16 долей, ½ и ×2 включаются без пауз и щелчков (I, O, L). По желанию метки сразу пишутся в теги файла в формате Serato — тогда их видят и другие DJ-программы.
+
+**DJ-программы и контроллер.** Плеер читает креты Serato и коллекцию rekordbox и показывает их отдельным разделом боковой панели — с теми же треками и в том же порядке. Креты можно перетащить из Finder или импортировать через меню «Файл», экспорт — обратно в Serato и rekordbox. Контроллер Pioneer DDJ-XP2 работает по USB: пэды — метки и петли, кнопки — воспроизведение (пока в режиме эксперимента).
+
+**Три размера окна.** Полный плеер с медиатекой (⌥⌘1), средний — обложка, волна, метки и список очереди (⌥⌘2), и мини-полоска (⌥⌘3), которая висит поверх всех окон, даже над полноэкранными приложениями. В среднем плеере обложку можно скрыть, а эквалайзер открывается компактной панелью.
+
+**Конвертер.** В меню трека — «Конвертировать…»: MP3 320 кбит/с, AAC 256 кбит/с, ALAC, FLAC, WAV 16 или 24 бит и AIFF. Частота — как у исходного файла, 44,1 или 48 кГц. Можно сразу для нескольких треков, исходные файлы не меняются.
 
 **Горячие клавиши.** В «Настройках → Клавиши» любое действие можно назначить на своё сочетание. Глобальные сочетания работают, даже когда плеер свёрнут, а медиаклавиши Mac, наушники и AirPods управляют плеером всегда. Основные сочетания — в таблице ниже.
 
-**Настройки и темы.** Язык интерфейса (10 языков), тёмная или светлая тема и цветовая схема. Здесь же плеер назначается проигрывателем по умолчанию, настраиваются автосведение, медиатека и проверка обновлений.
+**Настройки и темы.** Язык интерфейса (10 языков), тёмная или светлая тема и цветовые схемы с тонкой настройкой фона и акцента. Здесь же плеер назначается проигрывателем по умолчанию, настраиваются автосведение, медиатека, резервные копии и перенос медиатеки на другой Mac.
 
-**Решение проблем.** Плеер сам проверяет обновления и показывает, что исправлено, — держите последнюю версию. Если macOS не открывает плеер — «Всё равно открыть» в настройках конфиденциальности. Трек со значком ⚠️ не найден на диске: подключите диск или добавьте папку заново. Об ошибке можно написать на GitHub или в Telegram-канал.
+**Обновления и отчёты.** Плеер сам проверяет обновления, показывает, что нового, и ставит их в один клик. «Справка → Отчёт о проблеме…» собирает журнал и сведения о системе и одной кнопкой отправляет автору — имена файлов и пути по умолчанию скрыты. «Справка → Предложить улучшение…» — пожелание тоже уходит автору.
+
+**Решение проблем.** Если macOS не открывает плеер — «Всё равно открыть» в настройках конфиденциальности или команда из раздела вопросов ниже. Трек со значком ⚠️ не найден на диске: подключите диск или добавьте папку заново. Если треки кретов лежат в папке вне медиатеки, дайте к ней доступ — «Открыть доступ…» в итоге синхронизации.
 
 ### Горячие клавиши
 
@@ -73,6 +83,10 @@
 - Петля: начало, конец, вкл/выкл: `I, O, L`
 - Изменить теги: `⌘I`
 - Добавить файлы / папку: `⌘O / ⇧⌘O`
+- Автосведение вкл/выкл: `⌥⌘A`
+- Полный / средний / мини-плеер: `⌥⌘1 / ⌥⌘2 / ⌥⌘3`
+- Разделы медиатеки: `⌘1 … ⌘7`
+- Поиск: `⌘F`
 
 ### Частые вопросы
 
@@ -81,6 +95,8 @@
 **Как обновиться до новой версии?** Плеер сам проверяет обновления и показывает, что нового: нажмите «Скачать и установить», затем замените приложение в «Программах». Медиатека и настройки сохранятся.
 
 **macOS пишет, что разработчик не подтверждён — что делать?** Откройте Системные настройки → Конфиденциальность и безопасность, внизу нажмите «Всё равно открыть» и подтвердите паролем. Если macOS пишет, что приложение повреждено, выполните в Терминале: xattr -dr com.apple.quarantine "/Applications/DONSKIKH Media Player.app". Это нужно один раз. Если macOS пишет «Не удаётся открыть программу» с одной кнопкой «OK» — это та же блокировка (карантин): выполните ту же команду и откройте плеер снова.
+
+**Что плеер отправляет в интернет?** Плеер не собирает статистику и не следит за тем, что вы слушаете: музыка, плейлисты и медиатека остаются на вашем Mac. В интернет он выходит только в трёх случаях. Проверка обновлений — не чаще раза в сутки спрашивает у GitHub, вышла ли новая версия. Счётчик установок — один раз после установки скачивает с GitHub служебный файл, так видно число установок; ни имени, ни данных о компьютере, ни списка музыки при этом не передаётся. Отчёт о проблеме — только когда вы сами нажимаете «Отправить»: разработчику уходит журнал работы плеера, версия плеера и macOS, модель Mac; названия треков и пути к файлам скрыты, если вы сами не включили их в окне отчёта.
 
 
 ## Description (English)
@@ -118,23 +134,33 @@ Requirements: macOS 14+
 
 ### Guide
 
-**First launch.** Open the player from Launchpad or the Applications folder. On the left are the library, folders and playlists; in the middle, the track list with BPM and key; at the bottom, the player with the track waveform. Double-click a track to play it. The player can shrink to a mini window (⌥⌘3).
+**First launch.** Open the player from Launchpad or Applications. In the welcome window click Add Folder — the player reads tags and artwork and works out BPM and key by itself. On the left are the library, folders and playlists; in the middle, your tracks; at the bottom, the player with the track waveform. Double-click a track to play it.
 
-**Opening files and folders.** Drag a music folder from Finder into the window or choose “Add Folder…” (⇧⌘O). The player reads tags, artwork and CUE sheets by itself and watches the folder for changes. The “Music Library” section shows how many tracks, albums and formats you have.
+**Library and folders.** Add whole folders (⇧⌘O) and the player keeps watching them: new tracks appear, moved and renamed files are found, and favorites, history and cues are kept. Turn on columns from the table header menu: star rating, play count, comment, file location. Duplicates finds repeats even when titles are written differently. Messy tags? Turn on “Titles and artists from file name” in Settings.
 
-**Playlists.** Click “+” next to “Playlists”: a regular playlist, a folder for playlists or a smart playlist with rules (for example, BPM above 123). Add tracks by dragging; playlists can be nested in folders, imported and exported as M3U.
+**Playlists and queue.** Click “+” next to Playlists: a regular playlist, a folder, or a smart playlist with rules — BPM, key, genre, comment, label and more, like Serato smart crates. Drag tracks from the table or from Finder and reorder them with the mouse. Play Next and Add to End of Queue are in the track menu; save the queue as a playlist with ⇧⌘S. M3U import and export.
 
-**Artwork and tags.** Select a track and press ⌘I or choose “Edit Tags…” in the context menu — several tracks at once work too. Title, artist, album, genre, year, BPM, key and artwork are written straight into MP3, FLAC and M4A files.
+**Artwork and tags.** Select a track and press ⌘I or choose Edit Tags… — several tracks at once work too. Title, artist, album, genre, year, BPM, key and artwork are written straight into MP3, FLAC and M4A files. Writing is safe: if anything goes wrong, the original file stays intact.
 
-**Equalizer and sound.** The 30-band equalizer opens from the player button or ⌥⌘E. It has presets, preamp and clipping protection; the curve on top shows the resulting sound. Double-click a slider to reset it to 0 dB, and save your own settings as a preset.
+**Equalizer and sound.** A 30-band equalizer (⌥⌘E) with presets, preamp and clipping protection; double-click a slider to reset it to 0 dB. ReplayGain evens out loudness and measures it with EBU R128 when tags are missing. The menu next to the volume picks the output device — headphones, audio interface, Bluetooth, HDMI — and the channel pair of a multichannel interface. A meter shows the output level.
 
-**Hot cues and loops.** The button left of “AUTO” (or ⌥⌘C) opens the cue panel: 8 hot cues and saved loops. Right-click the waveform and choose “Set cue here”; click a flag on the waveform to jump to it. Loops of 1–16 beats, ½ and ×2 switch without gaps; cues export to Rekordbox and Serato.
+**Automix.** The AUTO button (⌥⌘A) turns on Automix: six transition types — crossfade, beat-matched mix with tempo sync, bass swap, filter, echo out and hard cut. The player can trust tempo and beat grids from Serato and Mixed In Key tags. Set a track’s start and end with handles right on the waveform (Playback Bounds), and skip silence at the start and end.
 
-**Hotkeys.** In Settings → Keys you can assign any action to your own shortcut. Global shortcuts work even when the player is hidden, and Mac media keys, headphones and AirPods always control it. The main shortcuts are listed below.
+**Hot cues and loops.** The button left of AUTO (⌥⌘C) opens the cue panel: 8 hot cues (keys 1–8) and saved loops. Right-click the waveform to set a cue; colors match Serato DJ Pro. Loops of 1–16 beats, ½ and ×2 switch with no gaps or clicks (I, O, L). Optionally cues are written straight into the file in Serato format, so other DJ apps see them too.
 
-**Settings and themes.** Interface language (10 languages), dark or light theme and color scheme. This is also where you make it the default player and set up Automix, the library and update checks.
+**DJ software and controller.** The player reads Serato crates and the rekordbox collection and shows them as a separate sidebar section, with the same tracks in the same order. Drag crates from Finder or import them from the File menu; export goes back to Serato and rekordbox. The Pioneer DDJ-XP2 controller works over USB: pads for cues and loops, buttons for playback (experimental for now).
 
-**Troubleshooting.** The player checks for updates and shows what’s fixed — keep it on the latest version. If macOS won’t open it, click “Open Anyway” in Privacy & Security. A track marked ⚠️ wasn’t found on disk: connect the drive or add the folder again. Report problems on GitHub or in the Telegram channel.
+**Three window sizes.** The full player with your library (⌥⌘1), a medium view with artwork, waveform, cues and the queue (⌥⌘2), and a mini bar (⌥⌘3) that floats above all windows, even full-screen apps. In the medium view you can hide the artwork, and the equalizer opens as a compact panel.
+
+**Converter.** Choose Convert… in the track menu: MP3 320 kbps, AAC 256 kbps, ALAC, FLAC, WAV 16 or 24-bit and AIFF. Sample rate — same as the source, 44.1 or 48 kHz. Several tracks at once work too; the original files are not changed.
+
+**Keyboard shortcuts.** In Settings → Keys you can assign any action to your own shortcut. Global shortcuts work even when the player is minimized, and Mac media keys, headphones and AirPods always control it. The main shortcuts are in the table below.
+
+**Settings and themes.** Interface language (10 languages), dark or light theme and color schemes with fine-tuning of background and accent. This is also where you make the player your default, and set up Automix, the library, backups and moving your library to another Mac.
+
+**Updates and reports.** The player checks for updates itself, shows what’s new and installs them in one click. Help → Report a Problem… collects the log and system info and sends it to the author with one button — file names and paths are hidden by default. Help → Suggest an Improvement… sends your idea to the author too.
+
+**Troubleshooting.** If macOS won’t open the player, click Open Anyway in Privacy & Security or use the command from the FAQ below. A track with a ⚠️ icon wasn’t found on disk: connect the drive or add the folder again. If crate tracks live in a folder outside the library, grant access to it — Open Access… in the sync summary.
 
 ### Keyboard shortcuts
 
@@ -148,6 +174,10 @@ Requirements: macOS 14+
 - Loop: in, out, on/off: `I, O, L`
 - Edit tags: `⌘I`
 - Add files / folder: `⌘O / ⇧⌘O`
+- Automix on/off: `⌥⌘A`
+- Full / medium / mini player: `⌥⌘1 / ⌥⌘2 / ⌥⌘3`
+- Library sections: `⌘1 … ⌘7`
+- Search: `⌘F`
 
 ### Frequently asked questions
 
@@ -156,4 +186,6 @@ Requirements: macOS 14+
 **How do I update to a new version?** The player checks for updates itself and shows what’s new: click “Download and Install”, then replace the app in Applications. Your library and settings are kept.
 
 **macOS says the developer can’t be verified — what do I do?** Open System Settings → Privacy & Security, scroll down, click “Open Anyway” and confirm with your password. If macOS says the app is damaged, run in Terminal: xattr -dr com.apple.quarantine "/Applications/DONSKIKH Media Player.app". You only need to do this once. If macOS says “The application can’t be opened” with a single OK button, it’s the same quarantine block: run the same command and open the player again.
+
+**What does the player send over the internet?** The player collects no statistics and doesn’t track what you listen to: your music, playlists and library stay on your Mac. It goes online in only three cases. Update check — at most once a day it asks GitHub whether a new version is out. Install counter — once after installation it downloads a small service file from GitHub so the number of installs can be counted; no name, computer details or music list are sent. Problem report — only when you click “Send” yourself: the developer receives the player’s log, the player and macOS versions and your Mac model; track names and file paths are hidden unless you include them in the report window.
 
